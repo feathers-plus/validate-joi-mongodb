@@ -1,5 +1,5 @@
 {
-  "name": "validate-joi-mongodb",
+  "name": "@feathers-plus/validate-joi-mongodb",
   "version": "0.0.1",
   "description": "Utilities for working with @feathers-plus/validate-joi and MongoDB",
   "main": "index.js",
