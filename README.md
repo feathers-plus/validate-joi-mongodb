@@ -1,6 +1,6 @@
 # @feathers-plus/validate-joi-mongodb
 
-Companion utilities for [@feathers-plus/validate-joi](https://github.com/feathers-plus/validate-joi).
+Companion utilities for using [@feathers-plus/validate-joi](https://github.com/feathers-plus/validate-joi) with MongoDB.
 
 ## Installation
 
