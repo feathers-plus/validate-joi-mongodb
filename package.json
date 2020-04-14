@@ -11,6 +11,9 @@
     "test": "npm run mocha",
     "mocha": "mocha test/**/*.test.js --recursive --exit"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "mongodb": "^3.5.5"
   },
