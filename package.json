@@ -1,0 +1,25 @@
+{
+  "name": "validate-joi-mongodb",
+  "version": "0.0.1",
+  "description": "Utilities for working with @feathers-plus/validate-joi and MongoDB",
+  "main": "index.js",
+  "repository": "https://github.com/feathers-plus/validate-joi-mongodb",
+  "author": "Marshall Thompson",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "mocha": "mocha test/**/*.test.js --recursive --exit"
+  },
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  },
+  "peerDependencies": {
+    "@feathers-plus/validate-joi": "^3.0.0",
+    "@hapi/joi": "^17.0.0"
+  },
+  "devDependencies": {
+    "@feathers-plus/validate-joi": "^3.1.0",
+    "@hapi/joi": "^17.1.1",
+    "chai": "^4.2.0"
+  }
+}
