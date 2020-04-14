@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "test": "npm run mocha",
     "mocha": "mocha test/**/*.test.js --recursive --exit"
   },
   "dependencies": {
