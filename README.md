@@ -89,8 +89,6 @@ module.exports = {
 
 `npm test` to run tests.
 
-`npm run cover` to run tests plus coverage.
-
 ## License
 
 MIT. See LICENSE.
