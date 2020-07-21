@@ -20,11 +20,11 @@
     "access": "public"
   },
   "dependencies": {
-    "mongodb": "^3.5.5"
+    "mongodb": "^3.5.9"
   },
   "peerDependencies": {
-    "@feathers-plus/validate-joi": "^3.0.0",
-    "@hapi/joi": "^17.0.0"
+    "@feathers-plus/validate-joi": "^3.4.0",
+    "@hapi/joi": "^17.1.1"
   },
   "devDependencies": {
     "@feathers-plus/validate-joi": "^3.1.0",

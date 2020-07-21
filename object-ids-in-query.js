@@ -90,7 +90,8 @@ function makeBaseRules() {
     Joi.array().items(objectId()),
     // Handle the $in: [] syntax
     Joi.object({
-      $in: Joi.array().items(objectId())
+      $in: Joi.array().items(objectId()),
+      $nin: Joi.array().items(objectId())
     })
   ]
 }
