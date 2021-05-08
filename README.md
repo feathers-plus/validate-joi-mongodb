@@ -23,7 +23,7 @@ Here's an example validation file for an `faqs` service. You might put the follo
 
 ```js
 // src/services/faqs/faqs.model.js
-const Joi = require('@hapi/joi')
+const Joi = require('joi')
 const { objectId } = require('@feathers-plus/validate-joi-mongodb')
 
 const attrs = {
@@ -61,7 +61,7 @@ const { attrs, schema } = require('./faqs.model')
 
 module.exports = {
   before: {
-    all: [ 
+    all: [
       // ... handle authentication first
       iff(
         isProvider('external'),
