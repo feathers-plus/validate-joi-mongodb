@@ -1,6 +1,6 @@
 {
   "name": "@feathers-plus/validate-joi-mongodb",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Utilities for working with @feathers-plus/validate-joi and MongoDB",
   "main": "index.js",
   "repository": "https://github.com/feathers-plus/validate-joi-mongodb",
